@@ -12,7 +12,6 @@ type IdentityRequest struct {
 	nasType.SpareHalfOctetAndSecurityHeaderType
 	nasType.IdentityRequestMessageIdentity
 	nasType.SpareHalfOctetAndIdentityType
-	publickey []byte 
 }
 
 func NewIdentityRequest(iei uint8) (identityRequest *IdentityRequest) {
